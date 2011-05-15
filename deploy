@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+rsync -avz --delete --rsh='ssh' ./ deploy@74.207.228.23:/home/deploy/apps/we-are-lions/
