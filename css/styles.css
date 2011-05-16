@@ -260,6 +260,29 @@ div.item-purchasing span.price {
 	padding-top: 20px;
 	padding-left: 20px; 
 	}
+	
+form.paypal_form {
+	display: block;
+	float: right;
+	margin-top: 17px;
+	width: auto;
+	position: relative;
+}
+
+form.paypal_form select,
+form.paypal_form option{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+form.paypal_form label[for=os0]{
+	font-weight: bold;
+	margin-right: 8px;
+}
+
+form.paypal_form input[type=image]{
+	position: relative;
+	top: 8px;
+	
+}
 div.item-purchasing ul {
 	float: right;
 	list-style-type: none;
