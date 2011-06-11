@@ -34,7 +34,7 @@ $mail = new PHPMailer();
 
 $mail->From     =  $email;
 $mail->FromName =  $name;
-$mail->AddAddress("davidschwartz12@gmail.com","David Schwartz");
+$mail->AddAddress("sam@sammyrosen.com","David Schwartz");
 
 $mail->WordWrap = 50;
 $mail->IsHTML(true);
